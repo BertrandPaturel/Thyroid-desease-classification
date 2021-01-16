@@ -29,7 +29,7 @@ class F_balanced_score(ClassifierBaseScoreType):
     def __init__(self, name='f_balanced_score', precision=3, beta=0.95):
         self.name = name
         self.precision = precision
-        self.beta = 1
+        self.beta = 0.95
 
     def __call__(self, y_true, y_pred):
         f_score = f1_score(y_true=y_true, y_pred=y_pred, labels=[0, 1], average=None)
