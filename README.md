@@ -6,8 +6,8 @@ As part of the Data Camp course, within the [Data Science Masters at Institut Po
 de Paris in collaboration with University of
 Paris-Saclay](https://datascience-x-master-paris-saclay.fr/le-master/structure-des-enseignements/),
 students were required to build a data challenge addressing some social/science/business
-problem using data obtained from external sources. This is one example of a student
-challenge, showcased on the ramp.studio server.
+problem using data obtained from external sources. This is our
+challenge on the Thyroid desease detection.
 
 # Prediction whether a patient suffers from a dysfunctionnal thyroid.
 
