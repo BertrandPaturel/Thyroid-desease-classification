@@ -12,9 +12,9 @@ class FeatureExtractor():
         pass
 
     def transform(self, X):
-        imp = SimpleImputer(strategy='most_frequent')
-        X_ = imp.fit_transform(X)
         cols = ["age", "TSH", "T3", "TT4", "T4U", "FTI"]
         ct = make_column_transformer(('passthrough', cols))
-        XX = ct.fit_transform(X_)
-        return XX
+        XX = ct.fit_transform(X)
+        imp = SimpleImputer(strategy='most_frequent')
+        XX_ = imp.fit_transform(XX)
+        return XX_
