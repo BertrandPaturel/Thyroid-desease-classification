@@ -7,7 +7,3 @@ jupyter
 seaborn
 graphviz
 pydotplus
-osfclient
-tslearn
-tsfresh
-hmmlearn
