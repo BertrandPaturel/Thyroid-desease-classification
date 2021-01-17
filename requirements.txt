@@ -1,9 +1,9 @@
 numpy
 matplotlib
-sklearn
+scikit-learn
 pandas
+ramp-workflow
 jupyter
 seaborn
 graphviz
 pydotplus
-git+https://github.com/paris-saclay-cds/ramp-workflow.git
