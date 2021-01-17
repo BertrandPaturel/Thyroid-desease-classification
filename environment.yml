@@ -10,26 +10,14 @@ dependencies:
   - scikit-learn
   - python-graphviz
   - pydotplus
+  - seaborn
   
   # Extra requirements conda
-  - tensorflow
-  - keras
-  - pytorch
+
   - scipy
-  - lightgbm
-  - tslearn
-  - tsfresh
-  - hmmlearn
+
 
   - pip
   - pip:
     - ramp-workflow
-    - osfclient
 
-    # Extra requirements pip
-    - scikit-multilearn
-    - python-louvain
-    - gudhi
-    - xgboost
-    - catboost
-    - ruptures
