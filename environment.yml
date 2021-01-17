@@ -8,7 +8,9 @@ dependencies:
   - numpy
   - pandas
   - scikit-learn
-
+  - python-graphviz
+  - pydotplus
+  
   # Extra requirements conda
   - tensorflow
   - keras
