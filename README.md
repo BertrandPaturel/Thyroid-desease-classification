@@ -17,7 +17,7 @@ The task asked here in this challenge is to predict whether a patient suffer fro
 
 ## Get started
 
-The [starting kit notebook](https://github.com/ramp-kits/brevet/blob/master/brevet_starting_kit.ipynb)
+The [starting kit notebook](https://github.com/BertrandPaturel/Thyroid-desease-classification/blob/main/Thyroid_starting_kit.ipynb)
 provides more details on this challenge and exploratory analysis on the data used.
 
 To get started on this challenge follow the instructions
